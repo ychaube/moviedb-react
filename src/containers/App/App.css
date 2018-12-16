@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+.Area-Row{
+  background-color: #eee;
+  margin-bottom: 60px;
+}
+
+.Area-Row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.No-Result-Found{  
+  font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+  text-align: center;
+  font-size: 2.25em;
+  font-style: italic;
+  font-weight: 300;
+  color: #757575;
+  padding-top: 30vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
